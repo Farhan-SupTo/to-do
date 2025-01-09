@@ -27,3 +27,9 @@ Follow these steps to get the project up and running:
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+
+# 2. Install Dependencies
+
+bun install
+
+
