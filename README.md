@@ -82,5 +82,34 @@ The project follows a structured layout to ensure maintainability and scalabilit
 
 ```
 
+## Scripts
+
+The following scripts are available for managing and running the project:
+
+- `bun dev`: Start the development server for local testing.
+- `bun build`: Create an optimized production build.
+- `bun preview`: Preview the production build locally.
+
+## Tech Stack
+
+This project is built with the following technologies:
+
+- **Framework**: [React](https://reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Package Manager**: [Bun](https://bun.sh/)
+
+## Contributing
+
+We welcome contributions to improve this project! To contribute:
+
+1. **Fork the repository**: Create your own copy of the repository by forking it.
+2. **Create a new branch**: Make a feature branch for your changes:
+   ```bash
+   git checkout -b feature-name
+
+
+```
+
 
 
