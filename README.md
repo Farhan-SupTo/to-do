@@ -142,5 +142,3 @@ Special thanks to:
 ```
 
 ---
-
-You can now copy and paste this into your `README.md` file directly! Let me know if you need further adjustments.
