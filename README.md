@@ -34,7 +34,53 @@ cd <repository-folder>
 Install the project dependencies using Bun:
 
 ```bash
+```
 bun install
+
+### 3. Start the Development Server
+
+Start the development server to preview your project locally:
+
+```bash
+bun dev
+```
+
+### 4. Build for Production
+
+Generate the production-ready files with optimized assets. This command will output the built files into the `dist/` directory:
+
+```bash
+bun build
+
+```
+### 5. Preview the Production Build
+
+Run a local server to preview the production build. This command serves the optimized build files from the `dist/` directory:
+
+```bash
+bun preview
+```
+
+## Project Structure
+
+The project follows a structured layout to ensure maintainability and scalability. Below is an overview of the directories and files:
+
+```plaintext
+├── src/                 # Main source code directory
+│   ├── assets/          # Static files like images and fonts
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Page-level components
+│   ├── styles/          # CSS/SCSS files
+│   ├── App.tsx          # Main App component
+│   ├── main.tsx         # Entry point of the application
+├── public/              # Public static assets
+├── bun.lockb            # Bun lock file for dependency management
+├── package.json         # Project metadata and scripts
+├── tsconfig.json        # TypeScript configuration file
+├── vite.config.ts       # Vite configuration file
+├── README.md            # Project documentation
+
+```
 
 
 
